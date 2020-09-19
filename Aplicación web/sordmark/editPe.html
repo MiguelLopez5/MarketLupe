@@ -1,0 +1,59 @@
+<?php
+	/*session_start();
+	include('funciones.php');
+	verificar_sesion();*/
+?>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Inventario</title>
+    <link rel="stylesheet" type="text/css" href="css/estiloEP.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <h1>Inventario</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="">Inicio</a>
+          <a href="productos.php">Inventario</a>
+          <a href="Ventas.php">Ventas</a>
+          <a href="proveedores.php">Proveedores</a>
+          <a href="adminuser.php">Administrar usuarios</a>
+          <a href="cerrar.php">Cerrar sesión</a>
+        </nav>
+      </div>
+    </header>
+    <form action="" method="POST">
+      <div class="capsu">
+        <div class="divis">
+          <div class="infofot">
+              <img src="uno.png">
+          </div>
+          <div class="inforol">
+            <h2>Cambiar imagen</h2>
+            <input class="entra" type="file" name="nom" required>
+          </div>
+        </div>
+        <div class="divis">
+          <div class="infou">
+            <h2>Datos personales</h2>
+            Nombre<br>
+            <input class="entra" type="text" name="nom" required><br>
+            Apellidos<br>
+            <input class="entra" type="text" name="apel" required><br>
+            Edad<br>
+            <input class="entra" type="text" name="ed" required><br>
+            Teléfono<br>
+            <input class="entra" type="text" name="telfon" required><br>
+            Contraseña<br>
+            <input class="entra" type="password" name="contra" required><br>
+          </div>
+        </div>
+      </div>
+    </form>
+</body>
+</html>
