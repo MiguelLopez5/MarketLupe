@@ -1,0 +1,19 @@
+.menu a {
+	background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-family:'Roboto Slab';
+  font-size: 20px;
+  float: right;
+  margin: 8px 0;
+  border-radius: 50px;
+	-webkit-transition: border 0.2s;
+}
+
+nav.menu:hover a
+{
+  background-color: #E5E7E9;
+  border-radius: 0px;
+	border: solid #E5E7E9;
+  color: black;
+}

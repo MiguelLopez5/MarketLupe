@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange|Merriweather|Roboto+Slab');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  background-image: url('../ima/form.jpg');
+  width: 100%;
+  height: 100%;
+
+}
+
+.container {
+  background-color: rgba(234, 237, 237, 0.8);
+	height: 550px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+	box-sizing: border-box;
+  padding: 50px 78px;
+  border-top: solid .4rem white;
+  font-family: 'Merriweather';
+}
+
+.form_top {
+   text-align: center;
+   padding: 2rem 0 1rem;
+   margin-bottom: 1rem;
+   font-size: 20pt;
+}
+
+.form_reg h2 {
+  margin-bottom: 15px;
+}
+
+.form_reg {
+  text-align: center;
+}
+
+.btn_form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+
+}
+.input {
+ border:none;
+ outline: none;
+ margin-top: 20PX;;
+ margin-bottom: 20px;
+ background: transparent;
+ border-bottom: 1px solid black;
+ width: 100%;
+ font-size: 12pt;
+ font-family: 'Merriweather';
+}
+
+ .btn_submit {
+   width: 100px;
+   height:33px;
+   border-radius: 20px;
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Roboto Slab';
+   background-color: #05F3EF;
+   -webkit-transition: border 0.2s;
+ 	 -webkit-transition: border-width 0.2s;
+
+
+ }
+ .btn_reset {
+text-decoration: none;
+ background-color: white;
+ color: black;
+ height: 33px;
+ width: 100px;
+ border-radius: 20px;
+ font-family: 'Roboto Slab';
+ font-size: 18px;
+ text-align: center;
+ line-height: 30px;
+ -webkit-transition: border 0.2s;
+ -webkit-transition: border-width 0.2s;
+ }
+ .btn_submit:hover {
+     	background-color: #A0FFFD;
+    	border: solid #A0FFFD;
+ }
+ .btn_reset:hover {
+
+ border: solid black;
+ border-width: 1px;
+
+ }

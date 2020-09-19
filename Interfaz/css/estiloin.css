@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange|Merriweather|Roboto+Slab');
+
+*
+{
+	margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+body
+{
+  background-image: url('../ima/fonis.png');
+  background-image: no-repeat;
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+}
+#conpad
+{
+	background-color: rgba(234, 237, 237, 0.8);
+	height: 375px;
+	width: 320px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+#inic
+{
+	font-family: 'Roboto Slab';
+  text-align: center;
+	margin: 30px 10px;
+}
+.campo
+{
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+	outline: none;
+  height: 40px;
+	width: 70%;
+  color: black;
+  font-size: 16px;
+	margin-bottom: 45px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.opcion{
+	height: auto;
+	width: 300px;
+	padding-left: 75px;
+}
+#botreg
+{
+  font-family: 'Roboto Slab';
+	background-color: #05F3EF;
+	height: 35px;
+	width: 140px;
+	border-radius: 10px;
+	font-size: 18px;
+	border: 1px solid #05F3EF;
+  text-align: center;
+	-webkit-transition: ALL 0.2s;
+}
+#volv
+{
+	background-color: #FFF;
+	height: 35px;
+	width: 140px;
+	border-radius: 10px;
+	font-family: 'Roboto Slab';
+	margin-top: 10px;
+  font-size: 18px;
+	border: 1px solid #FFF;
+	text-align: center;
+	line-height: 30px;
+	-webkit-transition: ALL 0.2s;
+}
+#resal
+{
+	height: 35px;
+	width: 140px;
+}
+div #resal:hover #botreg
+{
+	background-color: #A0FFFD;
+	border: solid #A0FFFD;
+	cursor: pointer;
+}
+div #volv:hover
+{
+	background-color: rgba(50%,50%,50%,0.5);
+	border: 1px solid black;
+}
